@@ -27,10 +27,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
+  - name: DL
     tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: NLP
+    tag: Natural Language Processing
+  - name: RS
+    tag: Recommender System
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
