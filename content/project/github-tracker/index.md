@@ -1,17 +1,15 @@
 ---
-title: Cour-sine
-summary: Find the right computer or data science course for you based on your current backgrounds, interest and goals.
+title: GitHub Progress Tracker
+summary: Another utility tool I wrote for my students. It automatically query, summarize and visualize students GitHub activities. The tool serves as a great way to track the capstone project progress.
 tags:
-- Web Parsing
-- Recommender System
-- Natural Language Processing
-date: "2019-010-27T00:00:00Z"
+- Front End
+date: "2020-11-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/rongpenl/cour-sine"
+external_link: ""
 
 image:
-  caption: Photo on Unsplash
+  caption: Unsplash
   focal_point: Smart
 
 links:

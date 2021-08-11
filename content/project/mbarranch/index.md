@@ -1,14 +1,12 @@
 ---
-title: Cour-sine
-summary: Find the right computer or data science course for you based on your current backgrounds, interest and goals.
+title: M-bar ranch
+summary: A simple front-end website for an Airbnb host in northern Arizona. This is not a fancy project but I want to list it here to encourage people to use what they can easily do to help those who are technologically left behind in the society.
 tags:
-- Web Parsing
-- Recommender System
-- Natural Language Processing
-date: "2019-010-27T00:00:00Z"
+- Front ENd
+date: "2021-04-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/rongpenl/cour-sine"
+external_link: "https://mbarranch.github.io/"
 
 image:
   caption: Photo on Unsplash

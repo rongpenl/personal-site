@@ -41,13 +41,21 @@ feature:
   icon_pack: fab
   name: Linux
 - description: 80%
-  icon: aws
-  icon_pack: fab
-  name: AWS
-- description: 80%
   icon: git
   icon_pack: fab
   name: GIT
+- description: 70%
+  icon: aws
+  icon_pack: fab
+  name: AWS
+- description: 70%
+  icon: js
+  icon_pack: fab
+  name: Vanilla JS
+- description: 70%
+  icon: flask
+  icon_pack: fas
+  name: Flask
 - description: 50%
   icon: react
   icon_pack: fab

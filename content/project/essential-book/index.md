@@ -1,17 +1,15 @@
 ---
-title: Cour-sine
-summary: Find the right computer or data science course for you based on your current backgrounds, interest and goals.
+title: Essential Statistics for Non-STEM Data Analysts
+summary: I wrote a book during the pandemic lockdown, 2020. Get to grips with the statistics and math knowledge needed to enter the world of data science with Python
 tags:
-- Web Parsing
-- Recommender System
-- Natural Language Processing
-date: "2019-010-27T00:00:00Z"
+- Book
+date: "2020-11-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/rongpenl/cour-sine"
+external_link: "https://www.amazon.com/Essential-Statistics-Non-STEM-Data-Analysts/dp/1838984844"
 
 image:
-  caption: Photo on Unsplash
+  caption: Amazon book cover
   focal_point: Smart
 
 links:

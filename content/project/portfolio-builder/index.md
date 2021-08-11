@@ -1,14 +1,12 @@
 ---
-title: Cour-sine
-summary: Find the right computer or data science course for you based on your current backgrounds, interest and goals.
+title: One-Click Portfolio Builder
+summary: Many of my students don't have a personal portfolio website. I created a simple workflow for them to create one to show off their work as well as a LinkedIn [talk](https://www.linkedin.com/events/buildaportfoliowebsitein30minut6804820582664937472/) to teach how to use it.
 tags:
-- Web Parsing
-- Recommender System
-- Natural Language Processing
-date: "2019-010-27T00:00:00Z"
+- Front End
+date: "2021-07-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/rongpenl/cour-sine"
+external_link: "https://github.com/rongpenl/last-minute-portfolio/"
 
 image:
   caption: Photo on Unsplash
