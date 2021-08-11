@@ -31,7 +31,7 @@ publication: With *Packt*
 abstract: The title [Essential Statistics for Non-STEM Data Analysts]((https://www.amazon.com/dp/1838984844?m=ATVPDKIKX0DER&ref=mpc_asin_title)) speaks for it. It teaches the essential statistics to non-stem people who wish to pursue a career in data analysis or data science. The contents of this book is an organic mixture of python programming, theoretical statistics knowledge and detail-oriented example walk-throughs. 
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: []
 
