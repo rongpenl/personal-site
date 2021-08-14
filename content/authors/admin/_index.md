@@ -14,7 +14,7 @@ organizations:
   url: https://www.linkedin.com/in/rongpengli/
 
 # Short bio (displayed in user profile at end of posts)
-bio: A versatile data person who cares about business goals more than AUC, who knows machine learning models from equation derivation to model deployment. A data science instructor who always prioritizes students and clients' experience and success. Anß automation geek, a book author and a conference speaker.
+bio: A versatile data person who cares about business goals more than AUC, who knows machine learning models from equation derivation to model deployment. A data science instructor who always prioritizes students and clients' experience and success. An automation geek, a book author and a conference speaker.
 
 # Interests to show in About widget
 interests:
