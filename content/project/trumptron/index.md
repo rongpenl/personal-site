@@ -1,6 +1,6 @@
 ---
 title: Trumptron
-summary: A high-fidelity, text-to-speech synthesis engine for Donald J. Trump’s voice. I taught myself to be a sound engineer to obtain probably the highest quality dataset for Trump's voice. This project is not released due to potential damage it can do to the society.
+summary: A high-fidelity, text-to-speech synthesis engine for [Donald J. Trump’s voice](https://vocaroo.com/6k8R8Du0SZF). I taught myself to be a audio engineer to obtain probably the highest quality dataset for Trump's voice. This project is not released due to potential damage it can do to the society.
 tags:
 - Natural Language Processing
 - Deep Learning
