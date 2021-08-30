@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | rongpeng.li</title>
+    <link>http://localhost:1313/publication-type/2/</link>
+      <atom:link href="http://localhost:1313/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>http://localhost:1313/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Domain-Specific Compilers for Dynamic Simulations of Quantum Materials on Quantum Computers</title>
+      <link>http://localhost:1313/publication/quantum-compiler/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/quantum-compiler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Deep Dive into DNA Base Pairing Interactions Under Water</title>
+      <link>http://localhost:1313/publication/deep-dive/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/deep-dive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anisotropic Elasticity and Abnormal Poisson’s Ratios in Super-hard Materials</title>
+      <link>http://localhost:1313/publication/super-hard/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/super-hard/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

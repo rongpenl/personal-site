@@ -1,0 +1,1632 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Rongpeng Li (Ron)" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="每一次搜索如何在Ubuntu上安装拼音输入法都让我十分头疼，年久失修的软件包和失灵时不灵的StackOverflow答案更是让人沮丧。折腾了一番在这里记录以下，即是为了自己，也是为了让更多的中文使用者在完全迁移至Ubuntu的时候少一份顾虑。" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/pinyin-input/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="http://localhost:1313/post/pinyin-input/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@rongpengli" />
+    <meta property="twitter:creator" content="@rongpengli" />
+  
+  <meta property="og:site_name" content="rongpeng.li" />
+  <meta property="og:url" content="http://localhost:1313/post/pinyin-input/" />
+  <meta property="og:title" content="How to install pinyin-input on Ubuntu 20.04 | rongpeng.li" />
+  <meta property="og:description" content="每一次搜索如何在Ubuntu上安装拼音输入法都让我十分头疼，年久失修的软件包和失灵时不灵的StackOverflow答案更是让人沮丧。折腾了一番在这里记录以下，即是为了自己，也是为了让更多的中文使用者在完全迁移至Ubuntu的时候少一份顾虑。" /><meta property="og:image" content="http://localhost:1313/post/pinyin-input/featured.jpg" />
+    <meta property="twitter:image" content="http://localhost:1313/post/pinyin-input/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2020-12-13T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2020-12-13T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/post/pinyin-input/"
+  },
+  "headline": "How to install pinyin-input on Ubuntu 20.04",
+  
+  "image": [
+    "http://localhost:1313/post/pinyin-input/featured.jpg"
+  ],
+  
+  "datePublished": "2020-12-13T00:00:00Z",
+  "dateModified": "2020-12-13T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Rongpeng Li (Ron)"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "rongpeng.li",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "每一次搜索如何在Ubuntu上安装拼音输入法都让我十分头疼，年久失修的软件包和失灵时不灵的StackOverflow答案更是让人沮丧。折腾了一番在这里记录以下，即是为了自己，也是为了让更多的中文使用者在完全迁移至Ubuntu的时候少一份顾虑。"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>How to install pinyin-input on Ubuntu 20.04 | rongpeng.li</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="da5ec406c548507a3a5f91374ab9c916" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">rongpeng.li</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">rongpeng.li</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/uploads/resume.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>How to install pinyin-input on Ubuntu 20.04</h1>
+
+  
+  <p class="page-subtitle">如何在Ubuntu20.04上安装拼音输入法</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Rongpeng Li (Ron)</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Dec 13, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/tech/">Tech</a>, <a href="/category/reference/">Reference</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header container featured-image-wrapper mt-4 mb-4" style="max-width: 1200px; max-height: 800px;">
+  <div style="position: relative">
+    <img src="/post/pinyin-input/featured_hu645aac1daec0496379b9d31dc4ebdd47_3590128_1200x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/CpkOjOcXdUY"><strong>Unsplash</strong></a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <ul>
+<li><a href="#%e5%89%8d%e8%a8%80">前言</a></li>
+<li><a href="#%e5%8e%9f%e5%a7%8b%e6%95%99%e7%a8%8b">原始教程</a>
+<ul>
+<li><a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5-%e7%a1%ae%e4%bf%9d%e5%ae%89%e8%a3%85%e4%ba%86ibus%e5%92%8cibus-preferences">第一步: 确保安装了ibus和iBus preferences</a></li>
+<li><a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%ae%89%e8%a3%85-ibus-pinyin">第二步：安装 ibus pinyin</a></li>
+<li><a href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e5%9c%a8ibus-setup%e4%b8%ad%e6%b7%bb%e5%8a%a0%e6%99%ba%e8%83%bd%e6%8b%bc%e9%9f%b3chinese-intelligent-pinyin%e8%be%93%e5%85%a5%e6%b3%95">第三步，在ibus-setup中添加智能拼音Chinese-intelligent Pinyin输入法</a></li>
+<li><a href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e5%9c%a8ubuntu%e7%9a%84%e5%8c%ba%e5%9f%9f%e4%b8%8e%e8%af%ad%e8%a8%80%e8%ae%be%e7%bd%ae%e9%87%8c%e6%b7%bb%e5%8a%a0%e4%b8%ad%e6%96%87">第四步：在Ubuntu的区域与语言设置里添加中文</a></li>
+</ul>
+</li>
+<li><a href="#%e5%90%8e%e7%bb%ad%e6%9b%b4%e6%96%b0%e5%86%85%e5%ae%b9">后续更新内容</a>
+<ul>
+<li><a href="#vs-code%e4%b8%8b%e4%b8%8d%e8%83%bd%e8%be%93%e5%85%a5%e4%b8%ad%e6%96%87%e7%9a%84bug%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95">VS Code下不能输入中文的bug解决方法</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="前言">前言</h2>
+<p>每一次搜索如何在Ubuntu上安装拼音输入法都让我十分头疼，年久失修的软件包和失灵时不灵的StackOverflow答案更是让人沮丧。折腾了一番在这里记录以下，即是为了自己，也是为了让更多的中文使用者在完全迁移至Ubuntu的时候少一份顾虑。</p>
+<p>在Ubuntu上使用中文输入法有很多种方法，在这里我提供一种解决方法并且确保它的简介和有效性。我可以确认下述方法的有效性因为我正在使用它撰写本文。对于不愿意折腾的人，其实Chrome的<a href="https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab?hl=en" target="_blank" rel="noopener">Google Input Tools</a>插件已经提供了浏览器内中文输入的解决方案，可以考虑。如果你确实需要全局的中文输入法，请继续阅读。</p>
+<h2 id="原始教程">原始教程</h2>
+<h3 id="第一步-确保安装了ibus和ibus-preferences">第一步: 确保安装了ibus和iBus preferences</h3>
+<p>Ubuntu 20.04 自带了<strong>ibus</strong>. 在terminal里输入</p>
+<pre><code class="language-shell">man ibus
+</code></pre>
+<p>会告诉你下面的信息。</p>
+<pre><code class="language-shell">IBus is an Intelligent Input Bus. It is a new input framework for Linux
+OS. It provides full featured and user friendly input method user in‐
+terface. It also may help developers to develop input method easily.
+ibus is a command line utility which can restart or exit ibus-daemon,
+get or set the current ibus engine or list the ibus engines.
+Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
+</code></pre>
+<p>打开Ubuntu Software, 搜索 iBus Preferences, 第一个选项就是iBus Preferences, 如果没有安装，安装它。</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="ibus preference" srcset="
+               /post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_55a61f43f9d5ed9bb0ce72bf770e7065.png 400w,
+               /post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_b803701352b9692a2c5a194c035374e9.png 760w,
+               /post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_55a61f43f9d5ed9bb0ce72bf770e7065.png"
+               width="760"
+               height="146"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>安装完成后，可以在terminal里使用 <strong>ibus-setup</strong> 命令，打开ibus设置的图形界面如下图。</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="ibus setting" srcset="
+               /post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_adc1a2e7c05ba6c80b0ce3d915226030.png 400w,
+               /post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_8129d0b3fb9b865df836e03e9297d93c.png 760w,
+               /post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_adc1a2e7c05ba6c80b0ce3d915226030.png"
+               width="662"
+               height="530"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h3 id="第二步安装-ibus-pinyin">第二步：安装 ibus pinyin</h3>
+<p>在Ubuntu Software里搜索 <strong>ibus pinyin</strong> ， 安装第一个结果（得分两星 as January 2021) 。</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="ibus pinyin" srcset="
+               /post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_7d236954e997a3a07d2ff223343a317f.png 400w,
+               /post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_3a0c65c3bb07fde030c72790b55d1c21.png 760w,
+               /post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_7d236954e997a3a07d2ff223343a317f.png"
+               width="756"
+               height="292"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>点进去看如下图。在有些评论里已经指明了正确的使用方法但是无奈没有图示，对新手依然不友好。</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="ibus comment" srcset="
+               /post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_34df2720dd299edfeab6d3acc4a74eb0.png 400w,
+               /post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_e4582c72fa03894aa1081c8056c5eb88.png 760w,
+               /post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_34df2720dd299edfeab6d3acc4a74eb0.png"
+               width="760"
+               height="715"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h3 id="第三步在ibus-setup中添加智能拼音chinese-intelligent-pinyin输入法">第三步，在ibus-setup中添加智能拼音Chinese-intelligent Pinyin输入法</h3>
+<p>打开 <strong>ibus-setup</strong>的图形界面。</p>
+<p>在<strong>Input Method</strong>板块下选择<strong>add</strong>添加新语言。点击新弹窗下方的省略号展开所有语言选项将会看到<strong>Chinese</strong>选项。</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="add chinese ime" srcset="
+               /post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_0a368a3719bf605e9caf480e46df5f44.png 400w,
+               /post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_b95a0f22f86e98c9b773bc78bd1c1557.png 760w,
+               /post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_0a368a3719bf605e9caf480e46df5f44.png"
+               width="612"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>点击<strong>Chinese</strong>可以找到两个新安装的输入法，选择<strong>Intelligent Pinyin</strong>.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="intelligent pinyin" srcset="
+               /post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_a5997e8793668c90ca806d5685763979.png 400w,
+               /post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_1301d672b661113289f14b197e630b71.png 760w,
+               /post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_a5997e8793668c90ca806d5685763979.png"
+               width="631"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>安装完毕后可以在Input Method列表里看到<strong>Chinese-Intelligent Pinyin</strong>选项。如上图的背景部分所示。</p>
+<h3 id="第四步在ubuntu的区域与语言设置里添加中文">第四步：在Ubuntu的区域与语言设置里添加中文</h3>
+<p>打开Ubuntu的设置，找到区域与语言设置。</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="region language" srcset="
+               /post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_5a68481434cc5d6403bc39455cc60bec.png 400w,
+               /post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_27fdc20f65c5b636ee9e838cb850329c.png 760w,
+               /post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_5a68481434cc5d6403bc39455cc60bec.png"
+               width="760"
+               height="631"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>点击加号+添加输入源。展开列表，点击<strong>Others</strong>选项。</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="region language other" srcset="
+               /post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_384d587abe5409d3099afb53d37b7e0e.png 400w,
+               /post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_550c25fe1fed855550376322814521a6.png 760w,
+               /post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_384d587abe5409d3099afb53d37b7e0e.png"
+               width="298"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>不要检索，滚动到Chinese部分，你可以看到新安装的两个输入法，选择智能拼音输入法即可。</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="select pinyin" srcset="
+               /post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1fe7ed17b3fe06f44e38906995252da5.png 400w,
+               /post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_082047f0c80bb61296dfbc2fb271cf7e.png 760w,
+               /post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1fe7ed17b3fe06f44e38906995252da5.png"
+               width="350"
+               height="497"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>使用Super（对应Windows下的开始按键）和空格键就可以在中英文输入法之间自由切换了。</p>
+<h2 id="后续更新内容">后续更新内容</h2>
+<h3 id="vs-code下不能输入中文的bug解决方法">VS Code下不能输入中文的bug解决方法</h3>
+<p>2021年1月16日发现，如果你是通过20.04下的Ubuntu software下载的VS Code 则可能会面对无法在VS Code中输入中文的情况。解决方法是卸载VS Code 然后安装原始的VS Code deb 文件。下载，然后</p>
+<pre><code class="language-bash">sudo apt install code_版本号.deb
+</code></pre>
+<p><a href="https://sung.codes/blog/2020/09/03/i-bus-not-working-on-visual-studio-code/" target="_blank" rel="noopener">Ubuntu - IBus not working on Visual Studio Code</a></p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/linux/">Linux</a>
+  
+  <a class="badge badge-light" href="/tag/chinese/">Chinese</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://localhost:1313/post/pinyin-input/&amp;text=How%20to%20install%20pinyin-input%20on%20Ubuntu%2020.04" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://localhost:1313/post/pinyin-input/&amp;t=How%20to%20install%20pinyin-input%20on%20Ubuntu%2020.04" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=How%20to%20install%20pinyin-input%20on%20Ubuntu%2020.04&amp;body=http://localhost:1313/post/pinyin-input/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://localhost:1313/post/pinyin-input/&amp;title=How%20to%20install%20pinyin-input%20on%20Ubuntu%2020.04" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=How%20to%20install%20pinyin-input%20on%20Ubuntu%2020.04%20http://localhost:1313/post/pinyin-input/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://localhost:1313/post/pinyin-input/&amp;title=How%20to%20install%20pinyin-input%20on%20Ubuntu%2020.04" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="http://localhost:1313/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hua8122bc2a4378d4e564a178a46c5c327_1498964_270x270_fill_q75_lanczos_center.jpg" alt="Rongpeng Li (Ron)"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="http://localhost:1313/">Rongpeng Li (Ron)</a></h5>
+      <h6 class="card-subtitle">Senior Data Scientist &amp; Data Science Instructor &amp; Author &amp; Speaker</h6>
+      <p class="card-text">A versatile data person who cares about business goals more than AUC, who knows machine learning models from equation derivation to model deployment. A data science instructor who always prioritizes students and clients' experience and success. An automation geek, a book author and a conference speaker.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/rongpengli" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=hGvd1dkAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/rongpenl" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/rongpengli" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

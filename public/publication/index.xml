@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | rongpeng.li</title>
+    <link>http://localhost:1313/publication/</link>
+      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>http://localhost:1313/publication/</link>
+    </image>
+    
+    <item>
+      <title>Essential Statistics for Non-STEM Data Analysts</title>
+      <link>http://localhost:1313/publication/essential-stats/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/essential-stats/</guid>
+      <description>&lt;h1 id=&#34;essential-statistics-for-non-stem-data-analysts&#34;&gt;Essential Statistics for Non-STEM Data Analysts&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#essential-statistics-for-non-stem-data-analysts&#34;&gt;Essential Statistics for Non-STEM Data Analysts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#testimonials&#34;&gt;Testimonials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-i-wrote-this-book&#34;&gt;Why I wrote this book?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#who-is-this-book-for&#34;&gt;Who is this book for?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#whats-the-future-of-this-book&#34;&gt;What&amp;rsquo;s the future of this book?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The story and an overview of my book Essential Statistics for Non-STEM Data Analysts&lt;/p&gt;
+&lt;h2 id=&#34;testimonials&#34;&gt;Testimonials&lt;/h2&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    I’m about halfway through the book so far and really enjoying it. It’s a great mix of conceptual with practical, includes code following up-to-date best practices and standards, and is a great refresher if you’re seasoned, but also awesome if you’re new to analysis with Python!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    I wish I&amp;rsquo;d had this book from the beginning of my journey. The graphics make it very easy to understand what we are talking about and the code is broken down and functional enough to make it easy and clear to understand the point. Li has the insight and clarity to teach data science in a way that even a 5 year old could understand. Absolutely recommend his book, for both stem and non-stem majors.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    I came to this book with the perspective of a non-STEM professional who is transitioning into a Data Science career - so it seemed like it could be an ideal resource for someone with my profile, and that is indeed the case!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Overall, the book is well written and covers most of the statistical topics to get started into data science. I would recommend this book to anyone with a basic understanding of Python that wants to get a hands-on overview of statistics and get started with data science.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Overall, this book is a good reference to novice/experienced data scientists to refresh their statistics.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Like some other reviewers said, this book has a good balance of statistical concepts, math and python codes. The structure is good as each part has its specific focus. A very non-stem friendly book~
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;why-i-wrote-this-book&#34;&gt;Why I wrote this book?&lt;/h2&gt;
+&lt;p&gt;The story of this book is actually pretty inspiring. Around December 2019, while I was waiting for my &lt;a href=&#34;https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OPT&lt;/a&gt; to get approved, I wanted to do something more meaningful and productive. I often went to a local &lt;a href=&#34;https://www.lapl.org/branches/palms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;library&lt;/a&gt; in Culver City, Los Angeles and absolutely loved it and the community of book lovers. I walked to the counter and said to the manager that I wanted to offer a free mini course of data science to the library patrons as a fan of the library.&lt;/p&gt;
+&lt;p&gt;Later, we agreed on the format, the poster design, etc. In January 2020, the 7-week mini course started. About 10 patrons and I met every Tuesday late afternoon to cover topics including Python programming, basic statistics, webs scraping, visualization and even natural language processing. I carefully created the content and ensured the high quality of it. The audience loved it. Another librarian from a library in Monterey park even invited me to offer the mini course at her library. Unfortunately the COVID-19 forbade that and I began to work at &lt;a href=&#34;https://www.isi.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISI&lt;/a&gt; which limited my availability as well.&lt;/p&gt;
+&lt;p&gt;Well, I discovered that there is a big gap in the background knowledge and even the vocabulary usage between people who received formal STEM training like me (master in electrical engineering and an unfinished PhD &lt;a href=&#34;https://en.wikipedia.org/wiki/All_but_dissertation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ABD&lt;/a&gt; in physics) and people who are not very comfortable with math. How to help people who are making this transformation into the analytics era?&lt;/p&gt;
+&lt;p&gt;I did some research and found out that no existing books in the market met the goal of filling this gap. &lt;strong&gt;In my opinion, you have to speak the language of your audience, without distorting your original meaning, to be heard and understood.&lt;/strong&gt; So I drafted a book proposal and wrote a sample chapter, submitted to a book editor I found on LinkedIn and the rest is just the long long time of writing, editing and rewriting, etc.&lt;/p&gt;
+&lt;p&gt;Thanks to my editor &lt;a href=&#34;https://www.linkedin.com/in/sean-lobo-83ab8b137/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sean Lobo&lt;/a&gt;, my tech reviewers and language reviewer &lt;a href=&#34;https://www.linkedin.com/in/michael-n-hansen/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michael Hansen&lt;/a&gt;. See, if you don&amp;rsquo;t write English well, they will get you a language reviewer.&lt;/p&gt;
+&lt;h2 id=&#34;who-is-this-book-for&#34;&gt;Who is this book for?&lt;/h2&gt;
+&lt;p&gt;This book is designed for non-STEM people. If you don&amp;rsquo;t have a STEM major or didn&amp;rsquo;t get college education at all, this book is for you.&lt;/p&gt;
+&lt;p&gt;You need some essential Python programming skills to reproduce the examples in the book. If you don&amp;rsquo;t have any experience in Python, this &lt;a href=&#34;https://learnxinyminutes.com/docs/python/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&lt;/a&gt; will give you a quick start. The notebooks for the code in the book is in this &lt;a href=&#34;https://github.com/PacktPublishing/Essential-Statistics-for-Non-STEM-Data-Analysts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If the readers are experienced in data science or machine learning, there is no need for you to read this book. Please don&amp;rsquo;t give a bad rating on Amazon because it is too easy. Instead, I recommend the following books to such readers.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.stanford.edu/~hastie/ElemStatLearn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elements of Statistical Learning&lt;/a&gt; by &lt;a href=&#34;http://www-stat.stanford.edu/~hastie/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trevor Hastie,&lt;/a&gt; &lt;a href=&#34;http://www-stat.stanford.edu/~tibs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robert Tibshirani and&lt;/a&gt; &lt;a href=&#34;http://www-stat.stanford.edu/~jhf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jerome Friedman&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/ref=sr_1_2?ie=UTF8&amp;amp;qid=1336857747&amp;amp;sr=8-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Machine Learning: A Probabilistic Perspective&lt;/a&gt; by &lt;a href=&#34;https://www.cs.ubc.ca/~murphyk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kevin P. Murphy&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/gp/product/0387310738/ref=dbs_a_def_rwt_bibl_vppi_i1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pattern Recognition and Machine Learning&lt;/a&gt; by &lt;a href=&#34;https://www.microsoft.com/en-us/research/people/cmbishop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Bishop&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;whats-the-future-of-this-book&#34;&gt;What&amp;rsquo;s the future of this book?&lt;/h2&gt;
+&lt;p&gt;Well, I am closely monitoring the review of the book on Amazon, comments from my friends, students and colleagues. I plan to keep updating the book&amp;rsquo;s content so it reflects the market&amp;rsquo;s need for data analysts and scientists.  Feel free to reach out to me to provide your insights. Your name will show up in future editions&#39; preface 😀.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Domain-Specific Compilers for Dynamic Simulations of Quantum Materials on Quantum Computers</title>
+      <link>http://localhost:1313/publication/quantum-compiler/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/quantum-compiler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Deep Dive into DNA Base Pairing Interactions Under Water</title>
+      <link>http://localhost:1313/publication/deep-dive/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/deep-dive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KGTK: A Toolkit for Large Knowledge Graph Manipulation and Analysis</title>
+      <link>http://localhost:1313/publication/kgtk/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/kgtk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anisotropic Elasticity and Abnormal Poisson’s Ratios in Super-hard Materials</title>
+      <link>http://localhost:1313/publication/super-hard/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/super-hard/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

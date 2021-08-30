@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rongpeng.li</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>rongpeng.li</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
+      <title>rongpeng.li</title>
+      <link>http://localhost:1313/</link>
+    </image>
+    
+    <item>
+      <title>Essential Statistics for Non-STEM Data Analysts</title>
+      <link>http://localhost:1313/publication/essential-stats/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/essential-stats/</guid>
+      <description>&lt;h1 id=&#34;essential-statistics-for-non-stem-data-analysts&#34;&gt;Essential Statistics for Non-STEM Data Analysts&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#essential-statistics-for-non-stem-data-analysts&#34;&gt;Essential Statistics for Non-STEM Data Analysts&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#testimonials&#34;&gt;Testimonials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-i-wrote-this-book&#34;&gt;Why I wrote this book?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#who-is-this-book-for&#34;&gt;Who is this book for?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#whats-the-future-of-this-book&#34;&gt;What&amp;rsquo;s the future of this book?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The story and an overview of my book Essential Statistics for Non-STEM Data Analysts&lt;/p&gt;
+&lt;h2 id=&#34;testimonials&#34;&gt;Testimonials&lt;/h2&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    I’m about halfway through the book so far and really enjoying it. It’s a great mix of conceptual with practical, includes code following up-to-date best practices and standards, and is a great refresher if you’re seasoned, but also awesome if you’re new to analysis with Python!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    I wish I&amp;rsquo;d had this book from the beginning of my journey. The graphics make it very easy to understand what we are talking about and the code is broken down and functional enough to make it easy and clear to understand the point. Li has the insight and clarity to teach data science in a way that even a 5 year old could understand. Absolutely recommend his book, for both stem and non-stem majors.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    I came to this book with the perspective of a non-STEM professional who is transitioning into a Data Science career - so it seemed like it could be an ideal resource for someone with my profile, and that is indeed the case!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Overall, the book is well written and covers most of the statistical topics to get started into data science. I would recommend this book to anyone with a basic understanding of Python that wants to get a hands-on overview of statistics and get started with data science.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Overall, this book is a good reference to novice/experienced data scientists to refresh their statistics.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Like some other reviewers said, this book has a good balance of statistical concepts, math and python codes. The structure is good as each part has its specific focus. A very non-stem friendly book~
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;why-i-wrote-this-book&#34;&gt;Why I wrote this book?&lt;/h2&gt;
+&lt;p&gt;The story of this book is actually pretty inspiring. Around December 2019, while I was waiting for my &lt;a href=&#34;https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OPT&lt;/a&gt; to get approved, I wanted to do something more meaningful and productive. I often went to a local &lt;a href=&#34;https://www.lapl.org/branches/palms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;library&lt;/a&gt; in Culver City, Los Angeles and absolutely loved it and the community of book lovers. I walked to the counter and said to the manager that I wanted to offer a free mini course of data science to the library patrons as a fan of the library.&lt;/p&gt;
+&lt;p&gt;Later, we agreed on the format, the poster design, etc. In January 2020, the 7-week mini course started. About 10 patrons and I met every Tuesday late afternoon to cover topics including Python programming, basic statistics, webs scraping, visualization and even natural language processing. I carefully created the content and ensured the high quality of it. The audience loved it. Another librarian from a library in Monterey park even invited me to offer the mini course at her library. Unfortunately the COVID-19 forbade that and I began to work at &lt;a href=&#34;https://www.isi.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISI&lt;/a&gt; which limited my availability as well.&lt;/p&gt;
+&lt;p&gt;Well, I discovered that there is a big gap in the background knowledge and even the vocabulary usage between people who received formal STEM training like me (master in electrical engineering and an unfinished PhD &lt;a href=&#34;https://en.wikipedia.org/wiki/All_but_dissertation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ABD&lt;/a&gt; in physics) and people who are not very comfortable with math. How to help people who are making this transformation into the analytics era?&lt;/p&gt;
+&lt;p&gt;I did some research and found out that no existing books in the market met the goal of filling this gap. &lt;strong&gt;In my opinion, you have to speak the language of your audience, without distorting your original meaning, to be heard and understood.&lt;/strong&gt; So I drafted a book proposal and wrote a sample chapter, submitted to a book editor I found on LinkedIn and the rest is just the long long time of writing, editing and rewriting, etc.&lt;/p&gt;
+&lt;p&gt;Thanks to my editor &lt;a href=&#34;https://www.linkedin.com/in/sean-lobo-83ab8b137/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sean Lobo&lt;/a&gt;, my tech reviewers and language reviewer &lt;a href=&#34;https://www.linkedin.com/in/michael-n-hansen/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michael Hansen&lt;/a&gt;. See, if you don&amp;rsquo;t write English well, they will get you a language reviewer.&lt;/p&gt;
+&lt;h2 id=&#34;who-is-this-book-for&#34;&gt;Who is this book for?&lt;/h2&gt;
+&lt;p&gt;This book is designed for non-STEM people. If you don&amp;rsquo;t have a STEM major or didn&amp;rsquo;t get college education at all, this book is for you.&lt;/p&gt;
+&lt;p&gt;You need some essential Python programming skills to reproduce the examples in the book. If you don&amp;rsquo;t have any experience in Python, this &lt;a href=&#34;https://learnxinyminutes.com/docs/python/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&lt;/a&gt; will give you a quick start. The notebooks for the code in the book is in this &lt;a href=&#34;https://github.com/PacktPublishing/Essential-Statistics-for-Non-STEM-Data-Analysts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If the readers are experienced in data science or machine learning, there is no need for you to read this book. Please don&amp;rsquo;t give a bad rating on Amazon because it is too easy. Instead, I recommend the following books to such readers.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.stanford.edu/~hastie/ElemStatLearn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elements of Statistical Learning&lt;/a&gt; by &lt;a href=&#34;http://www-stat.stanford.edu/~hastie/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trevor Hastie,&lt;/a&gt; &lt;a href=&#34;http://www-stat.stanford.edu/~tibs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robert Tibshirani and&lt;/a&gt; &lt;a href=&#34;http://www-stat.stanford.edu/~jhf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jerome Friedman&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/ref=sr_1_2?ie=UTF8&amp;amp;qid=1336857747&amp;amp;sr=8-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Machine Learning: A Probabilistic Perspective&lt;/a&gt; by &lt;a href=&#34;https://www.cs.ubc.ca/~murphyk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kevin P. Murphy&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/gp/product/0387310738/ref=dbs_a_def_rwt_bibl_vppi_i1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pattern Recognition and Machine Learning&lt;/a&gt; by &lt;a href=&#34;https://www.microsoft.com/en-us/research/people/cmbishop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Christopher Bishop&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;whats-the-future-of-this-book&#34;&gt;What&amp;rsquo;s the future of this book?&lt;/h2&gt;
+&lt;p&gt;Well, I am closely monitoring the review of the book on Amazon, comments from my friends, students and colleagues. I plan to keep updating the book&amp;rsquo;s content so it reflects the market&amp;rsquo;s need for data analysts and scientists.  Feel free to reach out to me to provide your insights. Your name will show up in future editions&#39; preface 😀.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>One-Click Portfolio Builder</title>
+      <link>http://localhost:1313/project/portfolio-builder/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/portfolio-builder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orderbook simulation with Kafka &amp; Streamlit</title>
+      <link>http://localhost:1313/project/orderbook-simulation/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/orderbook-simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apodidae</title>
+      <link>http://localhost:1313/project/apodidae/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/apodidae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M-bar ranch</title>
+      <link>http://localhost:1313/project/mbarranch/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/mbarranch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain-Specific Compilers for Dynamic Simulations of Quantum Materials on Quantum Computers</title>
+      <link>http://localhost:1313/publication/quantum-compiler/</link>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/quantum-compiler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to install pinyin-input on Ubuntu 20.04</title>
+      <link>http://localhost:1313/post/pinyin-input/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/pinyin-input/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%e5%89%8d%e8%a8%80&#34;&gt;前言&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%e5%8e%9f%e5%a7%8b%e6%95%99%e7%a8%8b&#34;&gt;原始教程&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e6%ad%a5-%e7%a1%ae%e4%bf%9d%e5%ae%89%e8%a3%85%e4%ba%86ibus%e5%92%8cibus-preferences&#34;&gt;第一步: 确保安装了ibus和iBus preferences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%ae%89%e8%a3%85-ibus-pinyin&#34;&gt;第二步：安装 ibus pinyin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%e7%ac%ac%e4%b8%89%e6%ad%a5%e5%9c%a8ibus-setup%e4%b8%ad%e6%b7%bb%e5%8a%a0%e6%99%ba%e8%83%bd%e6%8b%bc%e9%9f%b3chinese-intelligent-pinyin%e8%be%93%e5%85%a5%e6%b3%95&#34;&gt;第三步，在ibus-setup中添加智能拼音Chinese-intelligent Pinyin输入法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e5%9c%a8ubuntu%e7%9a%84%e5%8c%ba%e5%9f%9f%e4%b8%8e%e8%af%ad%e8%a8%80%e8%ae%be%e7%bd%ae%e9%87%8c%e6%b7%bb%e5%8a%a0%e4%b8%ad%e6%96%87&#34;&gt;第四步：在Ubuntu的区域与语言设置里添加中文&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%e5%90%8e%e7%bb%ad%e6%9b%b4%e6%96%b0%e5%86%85%e5%ae%b9&#34;&gt;后续更新内容&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#vs-code%e4%b8%8b%e4%b8%8d%e8%83%bd%e8%be%93%e5%85%a5%e4%b8%ad%e6%96%87%e7%9a%84bug%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95&#34;&gt;VS Code下不能输入中文的bug解决方法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;每一次搜索如何在Ubuntu上安装拼音输入法都让我十分头疼，年久失修的软件包和失灵时不灵的StackOverflow答案更是让人沮丧。折腾了一番在这里记录以下，即是为了自己，也是为了让更多的中文使用者在完全迁移至Ubuntu的时候少一份顾虑。&lt;/p&gt;
+&lt;p&gt;在Ubuntu上使用中文输入法有很多种方法，在这里我提供一种解决方法并且确保它的简介和有效性。我可以确认下述方法的有效性因为我正在使用它撰写本文。对于不愿意折腾的人，其实Chrome的&lt;a href=&#34;https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab?hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Input Tools&lt;/a&gt;插件已经提供了浏览器内中文输入的解决方案，可以考虑。如果你确实需要全局的中文输入法，请继续阅读。&lt;/p&gt;
+&lt;h2 id=&#34;原始教程&#34;&gt;原始教程&lt;/h2&gt;
+&lt;h3 id=&#34;第一步-确保安装了ibus和ibus-preferences&#34;&gt;第一步: 确保安装了ibus和iBus preferences&lt;/h3&gt;
+&lt;p&gt;Ubuntu 20.04 自带了&lt;strong&gt;ibus&lt;/strong&gt;. 在terminal里输入&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;man ibus
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;会告诉你下面的信息。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;IBus is an Intelligent Input Bus. It is a new input framework for Linux
+OS. It provides full featured and user friendly input method user in‐
+terface. It also may help developers to develop input method easily.
+ibus is a command line utility which can restart or exit ibus-daemon,
+get or set the current ibus engine or list the ibus engines.
+Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;打开Ubuntu Software, 搜索 iBus Preferences, 第一个选项就是iBus Preferences, 如果没有安装，安装它。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ibus preference&#34; srcset=&#34;
+               /post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_55a61f43f9d5ed9bb0ce72bf770e7065.png 400w,
+               /post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_b803701352b9692a2c5a194c035374e9.png 760w,
+               /post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://localhost:1313/post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_55a61f43f9d5ed9bb0ce72bf770e7065.png&#34;
+               width=&#34;760&#34;
+               height=&#34;146&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;安装完成后，可以在terminal里使用 &lt;strong&gt;ibus-setup&lt;/strong&gt; 命令，打开ibus设置的图形界面如下图。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ibus setting&#34; srcset=&#34;
+               /post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_adc1a2e7c05ba6c80b0ce3d915226030.png 400w,
+               /post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_8129d0b3fb9b865df836e03e9297d93c.png 760w,
+               /post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://localhost:1313/post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_adc1a2e7c05ba6c80b0ce3d915226030.png&#34;
+               width=&#34;662&#34;
+               height=&#34;530&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;第二步安装-ibus-pinyin&#34;&gt;第二步：安装 ibus pinyin&lt;/h3&gt;
+&lt;p&gt;在Ubuntu Software里搜索 &lt;strong&gt;ibus pinyin&lt;/strong&gt; ， 安装第一个结果（得分两星 as January 2021) 。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ibus pinyin&#34; srcset=&#34;
+               /post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_7d236954e997a3a07d2ff223343a317f.png 400w,
+               /post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_3a0c65c3bb07fde030c72790b55d1c21.png 760w,
+               /post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://localhost:1313/post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_7d236954e997a3a07d2ff223343a317f.png&#34;
+               width=&#34;756&#34;
+               height=&#34;292&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;点进去看如下图。在有些评论里已经指明了正确的使用方法但是无奈没有图示，对新手依然不友好。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ibus comment&#34; srcset=&#34;
+               /post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_34df2720dd299edfeab6d3acc4a74eb0.png 400w,
+               /post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_e4582c72fa03894aa1081c8056c5eb88.png 760w,
+               /post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://localhost:1313/post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_34df2720dd299edfeab6d3acc4a74eb0.png&#34;
+               width=&#34;760&#34;
+               height=&#34;715&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;第三步在ibus-setup中添加智能拼音chinese-intelligent-pinyin输入法&#34;&gt;第三步，在ibus-setup中添加智能拼音Chinese-intelligent Pinyin输入法&lt;/h3&gt;
+&lt;p&gt;打开 &lt;strong&gt;ibus-setup&lt;/strong&gt;的图形界面。&lt;/p&gt;
+&lt;p&gt;在&lt;strong&gt;Input Method&lt;/strong&gt;板块下选择&lt;strong&gt;add&lt;/strong&gt;添加新语言。点击新弹窗下方的省略号展开所有语言选项将会看到&lt;strong&gt;Chinese&lt;/strong&gt;选项。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;add chinese ime&#34; srcset=&#34;
+               /post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_0a368a3719bf605e9caf480e46df5f44.png 400w,
+               /post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_b95a0f22f86e98c9b773bc78bd1c1557.png 760w,
+               /post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://localhost:1313/post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_0a368a3719bf605e9caf480e46df5f44.png&#34;
+               width=&#34;612&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;点击&lt;strong&gt;Chinese&lt;/strong&gt;可以找到两个新安装的输入法，选择&lt;strong&gt;Intelligent Pinyin&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;intelligent pinyin&#34; srcset=&#34;
+               /post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_a5997e8793668c90ca806d5685763979.png 400w,
+               /post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_1301d672b661113289f14b197e630b71.png 760w,
+               /post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://localhost:1313/post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_a5997e8793668c90ca806d5685763979.png&#34;
+               width=&#34;631&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;安装完毕后可以在Input Method列表里看到&lt;strong&gt;Chinese-Intelligent Pinyin&lt;/strong&gt;选项。如上图的背景部分所示。&lt;/p&gt;
+&lt;h3 id=&#34;第四步在ubuntu的区域与语言设置里添加中文&#34;&gt;第四步：在Ubuntu的区域与语言设置里添加中文&lt;/h3&gt;
+&lt;p&gt;打开Ubuntu的设置，找到区域与语言设置。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;region language&#34; srcset=&#34;
+               /post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_5a68481434cc5d6403bc39455cc60bec.png 400w,
+               /post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_27fdc20f65c5b636ee9e838cb850329c.png 760w,
+               /post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://localhost:1313/post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_5a68481434cc5d6403bc39455cc60bec.png&#34;
+               width=&#34;760&#34;
+               height=&#34;631&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;点击加号+添加输入源。展开列表，点击&lt;strong&gt;Others&lt;/strong&gt;选项。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;region language other&#34; srcset=&#34;
+               /post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_384d587abe5409d3099afb53d37b7e0e.png 400w,
+               /post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_550c25fe1fed855550376322814521a6.png 760w,
+               /post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://localhost:1313/post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_384d587abe5409d3099afb53d37b7e0e.png&#34;
+               width=&#34;298&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;不要检索，滚动到Chinese部分，你可以看到新安装的两个输入法，选择智能拼音输入法即可。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;select pinyin&#34; srcset=&#34;
+               /post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1fe7ed17b3fe06f44e38906995252da5.png 400w,
+               /post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_082047f0c80bb61296dfbc2fb271cf7e.png 760w,
+               /post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;http://localhost:1313/post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1fe7ed17b3fe06f44e38906995252da5.png&#34;
+               width=&#34;350&#34;
+               height=&#34;497&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;使用Super（对应Windows下的开始按键）和空格键就可以在中英文输入法之间自由切换了。&lt;/p&gt;
+&lt;h2 id=&#34;后续更新内容&#34;&gt;后续更新内容&lt;/h2&gt;
+&lt;h3 id=&#34;vs-code下不能输入中文的bug解决方法&#34;&gt;VS Code下不能输入中文的bug解决方法&lt;/h3&gt;
+&lt;p&gt;2021年1月16日发现，如果你是通过20.04下的Ubuntu software下载的VS Code 则可能会面对无法在VS Code中输入中文的情况。解决方法是卸载VS Code 然后安装原始的VS Code deb 文件。下载，然后&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo apt install code_版本号.deb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://sung.codes/blog/2020/09/03/i-bus-not-working-on-visual-studio-code/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ubuntu - IBus not working on Visual Studio Code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The unique advantages of non-STEM professionals in tech bootcamps</title>
+      <link>http://localhost:1313/post/stem-advantage/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/stem-advantage/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#can-you-introduce-yourself&#34;&gt;Can you introduce yourself?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-are-you-interested-in-teaching-stem-subjects&#34;&gt;Why are you interested in teaching STEM subjects?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-should-non-stem-students-know-going-into-an-educational-bootcamp&#34;&gt;What should non-STEM students know going into an educational bootcamp?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#whats-your-observation-regarding-people-leaving-their-career-versus-people-elaborating-on-their-career-with-new-skills&#34;&gt;What’s your observation regarding people leaving their career versus people elaborating on their career with new skills?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-your-suggestion-for-non-stem-professionals-interested-in-coding-bootcamps&#34;&gt;What is your suggestion for non-STEM professionals interested in coding bootcamps?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#you-mentioned-storytelling-can-you-elaborate-on-that&#34;&gt;You mentioned storytelling. Can you elaborate on that?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#how-do-you-define-storytelling-what-is-good-storytelling&#34;&gt;How do you define storytelling? What is good storytelling?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sounds-like-a-data-scientist-needs-to-be-a-salesperson&#34;&gt;Sounds like a data scientist needs to be a salesperson.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#you-have-expressed-that-knowing-is-not-necessarily-better-than-not-knowing-what-does-that-mean&#34;&gt;You have expressed that knowing is not necessarily better than not knowing. What does that mean?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-are-your-suggestions-for-incoming-non-stem-professionals&#34;&gt;What are your suggestions for incoming non-STEM professionals?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;can-you-introduce-yourself&#34;&gt;Can you introduce yourself?&lt;/h2&gt;
+&lt;p&gt;My name is Ron (Rongpeng) Li. I am a data science instructor at Galvanize Los Angeles campus. Before that, I was a research programmer at Information Sciences Institute, a research branch of The University of Southern California. I studied physics, computer science, and electrical engineering when I was a graduate student.&lt;/p&gt;
+&lt;h2 id=&#34;why-are-you-interested-in-teaching-stem-subjects&#34;&gt;Why are you interested in teaching STEM subjects?&lt;/h2&gt;
+&lt;p&gt;I have been very enthusiastic about teaching STEM (Science, technology, engineering, and mathematics), especially to people without formal training. At Galvanize, almost all my students come from non-STEM backgrounds. It is well known that there is a gap between the skills, the mindset, and sometimes even the vocabulary used between the tech fields and the non-STEM domain. This may cause students to doubt their confidence and skills. However, I find that the advantages of the non-STEM professionals who transit to the tech domain are less discussed. I would love to bring people’s attention and appreciation to them.&lt;/p&gt;
+&lt;p&gt;Although I only teach data science, I strongly believe what I am going to discuss applies to other tech domains as well. I will use data science for explaining purposes in the conversation.&lt;/p&gt;
+&lt;h2 id=&#34;what-should-non-stem-students-know-going-into-an-educational-bootcamp&#34;&gt;What should non-STEM students know going into an educational bootcamp?&lt;/h2&gt;
+&lt;p&gt;Non-STEM students should know that expertise domain knowledge is more important than specific data science skills in the long run. To clarify some possible misunderstandings first, the data skills are definitely important and they are the main reason why students join our bootcamp. However, I find that students have two very different mindsets. Some of them want to change their career completely, leaving their domain. Another group of students want to stay in their domain of expertise but lift their tech skills.&lt;/p&gt;
+&lt;h2 id=&#34;whats-your-observation-regarding-people-leaving-their-career-versus-people-elaborating-on-their-career-with-new-skills&#34;&gt;What’s your observation regarding people leaving their career versus people elaborating on their career with new skills?&lt;/h2&gt;
+&lt;p&gt;I didn’t have many students, so I have to observe on LinkedIn as well. My impression is that students who try to completely leave their previous expertise find it VERY hard but the second group may find it more comfortable to tell a consistent story. Honestly, it is not realistic to start in a new domain by simply claiming that you know how random forests work. Sometimes you aim at a scientist job but end up with an analyst job or even no job for a long time. The frustration is pretty detrimental.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-your-suggestion-for-non-stem-professionals-interested-in-coding-bootcamps&#34;&gt;What is your suggestion for non-STEM professionals interested in coding bootcamps?&lt;/h2&gt;
+&lt;p&gt;My suggestion is that students shouldn’t think of learning data science skills as a COMPLETE shift of career, at least in the beginning, but a full upgrade of their understanding of their original domain with new skills and perspectives. For example, if you work for a sales team, without data science skills, you are only capable of seeing a fracture of the business. With data science, you can do many other things. This is your story to tell. It is just not possible to get to the music industry to recommend music to people just because you joined the tech bootcamp. For those who really wish to shift their careers, I have two suggestions. First, because your background is always your advantage over other candidates, you should consider starting the transition by finding the intersection of your background and your dream job. It is not hard: for example, if you come from a sales background and are working on software that recommends music to listeners, your software is essentially a sales tactic if you think about it. Why should someone listen to a song? Try to frame your story by using your background expertise.Second, you need really, really good projects to impress people. I would say a WOW-level project. One of such examples that impressed me is a covid-19 infection prediction app. It was very well done.&lt;/p&gt;
+&lt;h2 id=&#34;you-mentioned-storytelling-can-you-elaborate-on-that&#34;&gt;You mentioned storytelling. Can you elaborate on that?&lt;/h2&gt;
+&lt;p&gt;Sure. This is actually the second point I want to make. I find, in general, non-STEM students have particularly good skills of storytelling. You can say storytelling is a byproduct of working experience, even for people who aren’t natural storytellers.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-you-define-storytelling-what-is-good-storytelling&#34;&gt;How do you define storytelling? What is good storytelling?&lt;/h2&gt;
+&lt;p&gt;I define storytelling as a special kind of sales. Galvanize has rigorous graduation requirements, so other than rare cases beyond 3 sigmas, most graduates have roughly the same skill levels. They are essentially qualified for entry-level data analyst or data scientist jobs. The big differences are in the soft skills. For example, some students are very sensitive to numbers and they are visibly excited about increase of model accuracy. However, such students often fail to address the reason why we want high accuracy.&lt;/p&gt;
+&lt;p&gt;A non-STEM professional with working experience knows the relationship between impact and motivation. You want to make an impact or solve a problem first, and then you bring data science into the room. I had a student who is really into role play. When he gave a presentation, he set up a scene and assigned himself a role. He then created some background information and started from there. This may seem weird, but I sincerely think it is very down-to-earth and necessary. Galvanize data science instructors are also discussing possibilities to bring more business-oriented scenarios into the curriculum like role-playing.&lt;/p&gt;
+&lt;p&gt;In terms of good storytelling in data science, I think good storytelling requires a sense of the big picture. I think it is also the reason why tools like BI platforms, which are more and more automatic and intelligent,  will not replace data scientists. A good data scientist should know the data aspect well, but should also know the assumptions for the questions being studied, why the data part is necessary, and most importantly, the scope of the possible impact. Including these factors in a data science project makes the project an enjoyable story that doesn’t make people frown. I am not in favor of a particular format of storytelling. Dashboards, reports, animations, or even plain text are all fine options to me.&lt;/p&gt;
+&lt;h2 id=&#34;sounds-like-a-data-scientist-needs-to-be-a-salesperson&#34;&gt;Sounds like a data scientist needs to be a salesperson. &lt;/h2&gt;
+&lt;p&gt;Right. To be a data scientist, it is a necessary but not sufficient condition to be a good salesperson.&lt;/p&gt;
+&lt;h2 id=&#34;you-have-expressed-that-knowing-is-not-necessarily-better-than-not-knowing-what-does-that-mean&#34;&gt;You have expressed that knowing is not necessarily better than not knowing. What does that mean?&lt;/h2&gt;
+&lt;p&gt;I have chosen my words very precisely. First of all, it is almost always better to know certain knowledge or skills than not knowing them. However, in the bootcamp case, all graduates will reach roughly the same level when graduating. In terms of learning performance, I find sometimes students who are exposed to new ideas for the first time did a better job in terms of understanding and internalizing them.&lt;/p&gt;
+&lt;p&gt;To provide an example, we did a cross-campus interview to allow instructors from other campuses to interview my students. One of the students said that it was a great idea because the students are likely overfitted to the current instructors. I was shocked. His comments showed that he fully understood the concept of overfitting and can create jokes using the concept. &lt;/p&gt;
+&lt;p&gt;I am not saying that years of experience or formal education in STEM is not useful. I am saying that there is no issue (at least, no disadvantages) for non-STEM professionals to step into the domain without prior experience. The screening process at Galvanize DSI program ensures that, if you are admitted, we think you are prepared. If your classmates were in chemical engineering majors, they may have learned linear algebra during their time in college, but they were likely not learning it specifically in the context of something like principal component analysis… but now you may find yourselves in that situation during the bootcamp. Our curriculum teaches everything you need to know in the context of data science.&lt;/p&gt;
+&lt;h2 id=&#34;what-are-your-suggestions-for-incoming-non-stem-professionals&#34;&gt;What are your suggestions for incoming non-STEM professionals?&lt;/h2&gt;
+&lt;p&gt;First of all, bring back the mindset of a student. Learning is probably a long-lost practice. As a student, you will meet challenges. Don’t let the difficulties slip away. Try to manage your time properly so you have time to review and refresh. This will refresh old memories but also build your confidence. Soon, you will find that the dots are connected. Your programming skills influence how well you can understand others’ code and your understanding of machine learning algorithms determines how fast you can translate them into codes. Don’t let this connection make data science hard to crack into but make it a positive feedback loop. The start is always the most difficult.&lt;/p&gt;
+&lt;p&gt;If you’re looking for more content, I would recommend listening to an episode of the Galvanize Podcast. It is about a full-time mom’s story of transitioning to the tech industry, which is very impressive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Essential Statistics for Non-STEM Data Analysts</title>
+      <link>http://localhost:1313/project/essential-book/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/essential-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub Progress Tracker</title>
+      <link>http://localhost:1313/project/github-tracker/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/github-tracker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19 Visualizations, the Good, the Bad and the Malicious</title>
+      <link>http://localhost:1313/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</link>
+      <pubDate>Thu, 12 Nov 2020 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h2 id=&#34;what-is-this-talk-about&#34;&gt;What is This Talk About?&lt;/h2&gt;
+&lt;p&gt;This talk is a rough survey of visualizations about COVID-19 as November 2020. I collected several representative visualizations and analyzed them in a systematic, scientific way, essentially three key steps.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What is the information the visualization tries to convey? Is it in agreement with scientific consensus?&lt;/li&gt;
+&lt;li&gt;Is the data reliable? Does the data contain the intended information in principle?&lt;/li&gt;
+&lt;li&gt;What kind of plot and aesthetic elements does the visualization use? Do such visual elements help or not?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;why-did-i-give-this-talk&#34;&gt;Why did I Give This Talk?&lt;/h2&gt;
+&lt;p&gt;Visualization is supposed to convert data into more informative, digestible format so readers without too much analytical training can grasp the ideas or situations the data contains. This is especially important during the age of crisis, like the COVID-19 pandemic.&lt;/p&gt;
+&lt;p&gt;I believe in a public crisis like COVID-19, The most important thing for data science is to precisely and exactly convey the objective information. Even when the data is of high quality and the visualization is correct, the data scientists should inform the readers the possible judgmental consequences of the data preprocessing, transformation and aesthetic choices. In many cases data scientists think this is unnecessary or omit such information. However, when the audience is general public, these self-discrediting footnotes become a corner-stone for reliability and trustworthiness.&lt;/p&gt;
+&lt;h2 id=&#34;whats-the-future-of-the-talk&#34;&gt;What&amp;rsquo;s the Future of the Talk&lt;/h2&gt;
+&lt;p&gt;You may find the original code for the presentation here: &lt;a href=&#34;https://github.com/rongpenl/pydata-global-covid-visualization/blob/main/reproducibile/COVID-19%20Visualizations-the-Good-the-Bad-and-the-Malicious.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rongpenl/pydata-global-covid-visualization&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The age of misinformation and information diabetes is upon us. Misinformation and echo chamber effect caused by recommendation algorithm already caused tremendous amount of damage to the society of United States and around the globe. This talk inspired me to write a book called &lt;strong&gt;Practical Digital Civics&lt;/strong&gt; &lt;strong&gt;by a Data Scientist&lt;/strong&gt; to combat such threat. As January 2021, I am finalizing the draft of this book.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Deep Dive into DNA Base Pairing Interactions Under Water</title>
+      <link>http://localhost:1313/publication/deep-dive/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/deep-dive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KGTK: A Toolkit for Large Knowledge Graph Manipulation and Analysis</title>
+      <link>http://localhost:1313/publication/kgtk/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/kgtk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trumptron</title>
+      <link>http://localhost:1313/project/trumptron/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/trumptron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>http://localhost:1313/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Anisotropic Elasticity and Abnormal Poisson’s Ratios in Super-hard Materials</title>
+      <link>http://localhost:1313/publication/super-hard/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/super-hard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cour-sine</title>
+      <link>http://localhost:1313/project/cour-sine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/cour-sine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

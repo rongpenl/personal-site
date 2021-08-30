@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | rongpeng.li</title>
+    <link>http://localhost:1313/event/</link>
+      <atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Nov 2020 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://localhost:1313/event/</link>
+    </image>
+    
+    <item>
+      <title>COVID-19 Visualizations, the Good, the Bad and the Malicious</title>
+      <link>http://localhost:1313/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</link>
+      <pubDate>Thu, 12 Nov 2020 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h2 id=&#34;what-is-this-talk-about&#34;&gt;What is This Talk About?&lt;/h2&gt;
+&lt;p&gt;This talk is a rough survey of visualizations about COVID-19 as November 2020. I collected several representative visualizations and analyzed them in a systematic, scientific way, essentially three key steps.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What is the information the visualization tries to convey? Is it in agreement with scientific consensus?&lt;/li&gt;
+&lt;li&gt;Is the data reliable? Does the data contain the intended information in principle?&lt;/li&gt;
+&lt;li&gt;What kind of plot and aesthetic elements does the visualization use? Do such visual elements help or not?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;why-did-i-give-this-talk&#34;&gt;Why did I Give This Talk?&lt;/h2&gt;
+&lt;p&gt;Visualization is supposed to convert data into more informative, digestible format so readers without too much analytical training can grasp the ideas or situations the data contains. This is especially important during the age of crisis, like the COVID-19 pandemic.&lt;/p&gt;
+&lt;p&gt;I believe in a public crisis like COVID-19, The most important thing for data science is to precisely and exactly convey the objective information. Even when the data is of high quality and the visualization is correct, the data scientists should inform the readers the possible judgmental consequences of the data preprocessing, transformation and aesthetic choices. In many cases data scientists think this is unnecessary or omit such information. However, when the audience is general public, these self-discrediting footnotes become a corner-stone for reliability and trustworthiness.&lt;/p&gt;
+&lt;h2 id=&#34;whats-the-future-of-the-talk&#34;&gt;What&amp;rsquo;s the Future of the Talk&lt;/h2&gt;
+&lt;p&gt;You may find the original code for the presentation here: &lt;a href=&#34;https://github.com/rongpenl/pydata-global-covid-visualization/blob/main/reproducibile/COVID-19%20Visualizations-the-Good-the-Bad-and-the-Malicious.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rongpenl/pydata-global-covid-visualization&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The age of misinformation and information diabetes is upon us. Misinformation and echo chamber effect caused by recommendation algorithm already caused tremendous amount of damage to the society of United States and around the globe. This talk inspired me to write a book called &lt;strong&gt;Practical Digital Civics&lt;/strong&gt; &lt;strong&gt;by a Data Scientist&lt;/strong&gt; to combat such threat. As January 2021, I am finalizing the draft of this book.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

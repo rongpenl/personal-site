@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simulation | rongpeng.li</title>
+    <link>http://localhost:1313/tag/simulation/</link>
+      <atom:link href="http://localhost:1313/tag/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Simulation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
+      <title>Simulation</title>
+      <link>http://localhost:1313/tag/simulation/</link>
+    </image>
+    
+    <item>
+      <title>Orderbook simulation with Kafka &amp; Streamlit</title>
+      <link>http://localhost:1313/project/orderbook-simulation/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/orderbook-simulation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

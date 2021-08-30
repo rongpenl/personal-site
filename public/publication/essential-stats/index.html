@@ -1,0 +1,1413 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Rongpeng Li (Ron)" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The title [Essential Statistics for Non-STEM Data Analysts](https://www.amazon.com/dp/1838984844?m=ATVPDKIKX0DER&amp;ref=mpc_asin_title) speaks for it. It teaches the essential statistics to non-stem people who wish to pursue a career in data analysis or data science. The contents of this book is an organic mixture of python programming, theoretical statistics knowledge and detail-oriented example walk-throughs." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/essential-stats/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="http://localhost:1313/publication/essential-stats/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@rongpengli" />
+    <meta property="twitter:creator" content="@rongpengli" />
+  
+  <meta property="og:site_name" content="rongpeng.li" />
+  <meta property="og:url" content="http://localhost:1313/publication/essential-stats/" />
+  <meta property="og:title" content="Essential Statistics for Non-STEM Data Analysts | rongpeng.li" />
+  <meta property="og:description" content="The title [Essential Statistics for Non-STEM Data Analysts](https://www.amazon.com/dp/1838984844?m=ATVPDKIKX0DER&amp;ref=mpc_asin_title) speaks for it. It teaches the essential statistics to non-stem people who wish to pursue a career in data analysis or data science. The contents of this book is an organic mixture of python programming, theoretical statistics knowledge and detail-oriented example walk-throughs." /><meta property="og:image" content="http://localhost:1313/publication/essential-stats/featured.jpeg" />
+    <meta property="twitter:image" content="http://localhost:1313/publication/essential-stats/featured.jpeg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-08-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-11-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/publication/essential-stats/"
+  },
+  "headline": "Essential Statistics for Non-STEM Data Analysts",
+  
+  "image": [
+    "http://localhost:1313/publication/essential-stats/featured.jpeg"
+  ],
+  
+  "datePublished": "2021-08-01T00:00:00Z",
+  "dateModified": "2021-11-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Rongpeng Li (Ron)"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "rongpeng.li",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "The title [Essential Statistics for Non-STEM Data Analysts](https://www.amazon.com/dp/1838984844?m=ATVPDKIKX0DER\u0026ref=mpc_asin_title) speaks for it. It teaches the essential statistics to non-stem people who wish to pursue a career in data analysis or data science. The contents of this book is an organic mixture of python programming, theoretical statistics knowledge and detail-oriented example walk-throughs."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Essential Statistics for Non-STEM Data Analysts | rongpeng.li</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="8ac485821d5a364deecae06a7a463a49" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">rongpeng.li</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">rongpeng.li</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/uploads/resume.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Essential Statistics for Non-STEM Data Analysts</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Rongpeng Li (Ron)</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+  <div style="position: relative">
+    <img src="/publication/essential-stats/featured_hue3083b6edd47a5550096943612fd1e01_69104_720x0_resize_q75_lanczos.jpeg" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/pLCdAaMFLTE"><strong>Ron Li</strong></a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The title <a href="https://www.amazon.com/dp/1838984844?m=ATVPDKIKX0DER&amp;ref=mpc_asin_title">Essential Statistics for Non-STEM Data Analysts</a> speaks for it. It teaches the essential statistics to non-stem people who wish to pursue a career in data analysis or data science. The contents of this book is an organic mixture of python programming, theoretical statistics knowledge and detail-oriented example walk-throughs.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#5">
+              Book
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">With <em>Packt</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><h1 id="essential-statistics-for-non-stem-data-analysts">Essential Statistics for Non-STEM Data Analysts</h1>
+<ul>
+<li><a href="#essential-statistics-for-non-stem-data-analysts">Essential Statistics for Non-STEM Data Analysts</a>
+<ul>
+<li><a href="#testimonials">Testimonials</a></li>
+<li><a href="#why-i-wrote-this-book">Why I wrote this book?</a></li>
+<li><a href="#who-is-this-book-for">Who is this book for?</a></li>
+<li><a href="#whats-the-future-of-this-book">What&rsquo;s the future of this book?</a></li>
+</ul>
+</li>
+</ul>
+<p>The story and an overview of my book Essential Statistics for Non-STEM Data Analysts</p>
+<h2 id="testimonials">Testimonials</h2>
+<div class="alert alert-note">
+  <div>
+    I’m about halfway through the book so far and really enjoying it. It’s a great mix of conceptual with practical, includes code following up-to-date best practices and standards, and is a great refresher if you’re seasoned, but also awesome if you’re new to analysis with Python!
+  </div>
+</div>
+<div class="alert alert-note">
+  <div>
+    I wish I&rsquo;d had this book from the beginning of my journey. The graphics make it very easy to understand what we are talking about and the code is broken down and functional enough to make it easy and clear to understand the point. Li has the insight and clarity to teach data science in a way that even a 5 year old could understand. Absolutely recommend his book, for both stem and non-stem majors.
+  </div>
+</div>
+<div class="alert alert-note">
+  <div>
+    I came to this book with the perspective of a non-STEM professional who is transitioning into a Data Science career - so it seemed like it could be an ideal resource for someone with my profile, and that is indeed the case!
+  </div>
+</div>
+<div class="alert alert-note">
+  <div>
+    Overall, the book is well written and covers most of the statistical topics to get started into data science. I would recommend this book to anyone with a basic understanding of Python that wants to get a hands-on overview of statistics and get started with data science.
+  </div>
+</div>
+<div class="alert alert-note">
+  <div>
+    Overall, this book is a good reference to novice/experienced data scientists to refresh their statistics.
+  </div>
+</div>
+<div class="alert alert-note">
+  <div>
+    Like some other reviewers said, this book has a good balance of statistical concepts, math and python codes. The structure is good as each part has its specific focus. A very non-stem friendly book~
+  </div>
+</div>
+<h2 id="why-i-wrote-this-book">Why I wrote this book?</h2>
+<p>The story of this book is actually pretty inspiring. Around December 2019, while I was waiting for my <a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students" target="_blank" rel="noopener">OPT</a> to get approved, I wanted to do something more meaningful and productive. I often went to a local <a href="https://www.lapl.org/branches/palms" target="_blank" rel="noopener">library</a> in Culver City, Los Angeles and absolutely loved it and the community of book lovers. I walked to the counter and said to the manager that I wanted to offer a free mini course of data science to the library patrons as a fan of the library.</p>
+<p>Later, we agreed on the format, the poster design, etc. In January 2020, the 7-week mini course started. About 10 patrons and I met every Tuesday late afternoon to cover topics including Python programming, basic statistics, webs scraping, visualization and even natural language processing. I carefully created the content and ensured the high quality of it. The audience loved it. Another librarian from a library in Monterey park even invited me to offer the mini course at her library. Unfortunately the COVID-19 forbade that and I began to work at <a href="https://www.isi.edu/" target="_blank" rel="noopener">ISI</a> which limited my availability as well.</p>
+<p>Well, I discovered that there is a big gap in the background knowledge and even the vocabulary usage between people who received formal STEM training like me (master in electrical engineering and an unfinished PhD <a href="https://en.wikipedia.org/wiki/All_but_dissertation" target="_blank" rel="noopener">ABD</a> in physics) and people who are not very comfortable with math. How to help people who are making this transformation into the analytics era?</p>
+<p>I did some research and found out that no existing books in the market met the goal of filling this gap. <strong>In my opinion, you have to speak the language of your audience, without distorting your original meaning, to be heard and understood.</strong> So I drafted a book proposal and wrote a sample chapter, submitted to a book editor I found on LinkedIn and the rest is just the long long time of writing, editing and rewriting, etc.</p>
+<p>Thanks to my editor <a href="https://www.linkedin.com/in/sean-lobo-83ab8b137/" target="_blank" rel="noopener">Sean Lobo</a>, my tech reviewers and language reviewer <a href="https://www.linkedin.com/in/michael-n-hansen/" target="_blank" rel="noopener">Michael Hansen</a>. See, if you don&rsquo;t write English well, they will get you a language reviewer.</p>
+<h2 id="who-is-this-book-for">Who is this book for?</h2>
+<p>This book is designed for non-STEM people. If you don&rsquo;t have a STEM major or didn&rsquo;t get college education at all, this book is for you.</p>
+<p>You need some essential Python programming skills to reproduce the examples in the book. If you don&rsquo;t have any experience in Python, this <a href="https://learnxinyminutes.com/docs/python/" target="_blank" rel="noopener">page</a> will give you a quick start. The notebooks for the code in the book is in this <a href="https://github.com/PacktPublishing/Essential-Statistics-for-Non-STEM-Data-Analysts" target="_blank" rel="noopener">repository</a>.</p>
+<p>If the readers are experienced in data science or machine learning, there is no need for you to read this book. Please don&rsquo;t give a bad rating on Amazon because it is too easy. Instead, I recommend the following books to such readers.</p>
+<ol>
+<li><a href="https://web.stanford.edu/~hastie/ElemStatLearn/" target="_blank" rel="noopener">Elements of Statistical Learning</a> by <a href="http://www-stat.stanford.edu/~hastie/" target="_blank" rel="noopener">Trevor Hastie,</a> <a href="http://www-stat.stanford.edu/~tibs/" target="_blank" rel="noopener">Robert Tibshirani and</a> <a href="http://www-stat.stanford.edu/~jhf" target="_blank" rel="noopener">Jerome Friedman</a>.</li>
+<li><a href="https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/ref=sr_1_2?ie=UTF8&amp;qid=1336857747&amp;sr=8-2" target="_blank" rel="noopener">Machine Learning: A Probabilistic Perspective</a> by <a href="https://www.cs.ubc.ca/~murphyk/" target="_blank" rel="noopener">Kevin P. Murphy</a>.</li>
+<li><a href="https://www.amazon.com/gp/product/0387310738/ref=dbs_a_def_rwt_bibl_vppi_i1" target="_blank" rel="noopener">Pattern Recognition and Machine Learning</a> by <a href="https://www.microsoft.com/en-us/research/people/cmbishop/" target="_blank" rel="noopener">Christopher Bishop</a>.</li>
+</ol>
+<h2 id="whats-the-future-of-this-book">What&rsquo;s the future of this book?</h2>
+<p>Well, I am closely monitoring the review of the book on Amazon, comments from my friends, students and colleagues. I plan to keep updating the book&rsquo;s content so it reflects the market&rsquo;s need for data analysts and scientists.  Feel free to reach out to me to provide your insights. Your name will show up in future editions' preface 😀.</p>
+</div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://localhost:1313/publication/essential-stats/&amp;text=Essential%20Statistics%20for%20Non-STEM%20Data%20Analysts" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://localhost:1313/publication/essential-stats/&amp;t=Essential%20Statistics%20for%20Non-STEM%20Data%20Analysts" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Essential%20Statistics%20for%20Non-STEM%20Data%20Analysts&amp;body=http://localhost:1313/publication/essential-stats/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://localhost:1313/publication/essential-stats/&amp;title=Essential%20Statistics%20for%20Non-STEM%20Data%20Analysts" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Essential%20Statistics%20for%20Non-STEM%20Data%20Analysts%20http://localhost:1313/publication/essential-stats/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://localhost:1313/publication/essential-stats/&amp;title=Essential%20Statistics%20for%20Non-STEM%20Data%20Analysts" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="http://localhost:1313/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hua8122bc2a4378d4e564a178a46c5c327_1498964_270x270_fill_q75_lanczos_center.jpg" alt="Rongpeng Li (Ron)"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="http://localhost:1313/">Rongpeng Li (Ron)</a></h5>
+      <h6 class="card-subtitle">Senior Data Scientist &amp; Data Science Instructor &amp; Author &amp; Speaker</h6>
+      <p class="card-text">A versatile data person who cares about business goals more than AUC, who knows machine learning models from equation derivation to model deployment. A data science instructor who always prioritizes students and clients' experience and success. An automation geek, a book author and a conference speaker.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/rongpengli" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=hGvd1dkAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/rongpenl" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/rongpengli" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
