@@ -6,15 +6,15 @@ title: Rongpeng Li (Ron)
 superuser: true
 
 # Role/position/tagline
-role: Senior Data Scientist & Data Science Instructor & Author & Speaker
+role: Business Intelligence Engineer & Author & Speaker
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Open to work
+- name: Unit21
   url: https://www.linkedin.com/in/rongpengli/
 
 # Short bio (displayed in user profile at end of posts)
-bio: A versatile data person who cares about business goals more than AUC, who knows machine learning models from equation derivation to model deployment. A data science instructor who always prioritizes students and clients' experience and success. An automation geek, a book author and a conference speaker.
+bio: A business insight seeker, an automation geek, a book author and a conference speaker.
 
 # Interests to show in About widget
 interests:
@@ -73,10 +73,6 @@ email: ""
 highlight_name: true
 ---
 
-Ron is a versatile data "person" who cares about business goals more than AUC, who knows machine learning models from equation derivation to model deployment, who can wield both tiny pistols as well as big guns. 
-
-Ron is also an instructor who ALWAYS prioritizes his students' experience and success. He teaches in the labs, on the lawns of libraries and in front of screens.
-
-Ron is a geek, a book author and a conference speaker. He studied physics, computer science and electrical engineering at USC.
+I am a business insight seeker, an automation geek, a book author and a conference speaker. I work at Unit21 as a business intelligence engineer. I studied physics, computer science and electrical engineering at USC.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
