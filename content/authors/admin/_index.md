@@ -18,6 +18,7 @@ bio: A business insight seeker, an automation geek, a book author and a conferen
 
 # Interests to show in About widget
 interests:
+- Business Intelligence
 - Data Science
 - Data Engineering
 - Python Programming
