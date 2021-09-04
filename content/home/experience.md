@@ -22,13 +22,22 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Business Intelligence Engineer
+    company: Unit21
+    company_url: 'https://unit21.ai/'
+    company_logo: 
+    location: California
+    date_start: '2021-09-14'
+    date_end:
+    description: |2-
+  
   - title: Senior Data Scientist & Data Science Instructor
     company: Galvanize, Inc
     company_url: 'https://www.galvanize.com/'
     company_logo: 
     location: California
     date_start: '2020-09-01'
-    date_end: '2021-09-01'
+    date_end: '2021-09-13'
     description: |2-
         Key responsibilities & achievements:
         
