@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Book | rongpeng.li</title>
-    <link>http://localhost:1313/tag/book/</link>
-      <atom:link href="http://localhost:1313/tag/book/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rongpeng.li/tag/book/</link>
+      <atom:link href="https://rongpeng.li/tag/book/index.xml" rel="self" type="application/rss+xml" />
     <description>Book</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
+      <url>https://rongpeng.li/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
       <title>Book</title>
-      <link>http://localhost:1313/tag/book/</link>
+      <link>https://rongpeng.li/tag/book/</link>
     </image>
     
     <item>
       <title>Essential Statistics for Non-STEM Data Analysts</title>
-      <link>http://localhost:1313/project/essential-book/</link>
+      <link>https://rongpeng.li/project/essential-book/</link>
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/essential-book/</guid>
+      <guid>https://rongpeng.li/project/essential-book/</guid>
       <description></description>
     </item>
     

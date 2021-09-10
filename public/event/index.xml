@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | rongpeng.li</title>
-    <link>http://localhost:1313/event/</link>
-      <atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rongpeng.li/event/</link>
+      <atom:link href="https://rongpeng.li/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Nov 2020 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
+      <url>https://rongpeng.li/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>http://localhost:1313/event/</link>
+      <link>https://rongpeng.li/event/</link>
     </image>
     
     <item>
       <title>COVID-19 Visualizations, the Good, the Bad and the Malicious</title>
-      <link>http://localhost:1313/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</link>
+      <link>https://rongpeng.li/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</link>
       <pubDate>Thu, 12 Nov 2020 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</guid>
+      <guid>https://rongpeng.li/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.

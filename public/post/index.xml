@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | rongpeng.li</title>
-    <link>http://localhost:1313/post/</link>
-      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rongpeng.li/post/</link>
+      <atom:link href="https://rongpeng.li/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
+      <url>https://rongpeng.li/media/icon_hua8122bc2a4378d4e564a178a46c5c327_1498964_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>http://localhost:1313/post/</link>
+      <link>https://rongpeng.li/post/</link>
     </image>
     
     <item>
       <title>How to install pinyin-input on Ubuntu 20.04</title>
-      <link>http://localhost:1313/post/pinyin-input/</link>
+      <link>https://rongpeng.li/post/pinyin-input/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/pinyin-input/</guid>
+      <guid>https://rongpeng.li/post/pinyin-input/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#%e5%89%8d%e8%a8%80&#34;&gt;前言&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#%e5%8e%9f%e5%a7%8b%e6%95%99%e7%a8%8b&#34;&gt;原始教程&lt;/a&gt;
@@ -72,7 +72,7 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
                /post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_55a61f43f9d5ed9bb0ce72bf770e7065.png 400w,
                /post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_b803701352b9692a2c5a194c035374e9.png 760w,
                /post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://localhost:1313/post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_55a61f43f9d5ed9bb0ce72bf770e7065.png&#34;
+               src=&#34;https://rongpeng.li/post/pinyin-input/ibus-preference_hu8ed4abda759a8a8769fe2bc3c3672028_18632_55a61f43f9d5ed9bb0ce72bf770e7065.png&#34;
                width=&#34;760&#34;
                height=&#34;146&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -101,7 +101,7 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
                /post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_adc1a2e7c05ba6c80b0ce3d915226030.png 400w,
                /post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_8129d0b3fb9b865df836e03e9297d93c.png 760w,
                /post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://localhost:1313/post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_adc1a2e7c05ba6c80b0ce3d915226030.png&#34;
+               src=&#34;https://rongpeng.li/post/pinyin-input/ibus-setting_hue5d0fc16d18b3fe5e8622b716da1dc3e_44202_adc1a2e7c05ba6c80b0ce3d915226030.png&#34;
                width=&#34;662&#34;
                height=&#34;530&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -131,7 +131,7 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
                /post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_7d236954e997a3a07d2ff223343a317f.png 400w,
                /post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_3a0c65c3bb07fde030c72790b55d1c21.png 760w,
                /post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://localhost:1313/post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_7d236954e997a3a07d2ff223343a317f.png&#34;
+               src=&#34;https://rongpeng.li/post/pinyin-input/ibus-pinyin_huc95b429e7db4f4df8162658399b6bf32_21751_7d236954e997a3a07d2ff223343a317f.png&#34;
                width=&#34;756&#34;
                height=&#34;292&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -160,7 +160,7 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
                /post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_34df2720dd299edfeab6d3acc4a74eb0.png 400w,
                /post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_e4582c72fa03894aa1081c8056c5eb88.png 760w,
                /post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://localhost:1313/post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_34df2720dd299edfeab6d3acc4a74eb0.png&#34;
+               src=&#34;https://rongpeng.li/post/pinyin-input/ibus-comment_huf3febf5efff9cba84de628c3908121ee_73581_34df2720dd299edfeab6d3acc4a74eb0.png&#34;
                width=&#34;760&#34;
                height=&#34;715&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -191,7 +191,7 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
                /post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_0a368a3719bf605e9caf480e46df5f44.png 400w,
                /post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_b95a0f22f86e98c9b773bc78bd1c1557.png 760w,
                /post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://localhost:1313/post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_0a368a3719bf605e9caf480e46df5f44.png&#34;
+               src=&#34;https://rongpeng.li/post/pinyin-input/add-chinese_hufcbc8eedd7fda59215407b51eaba4967_71314_0a368a3719bf605e9caf480e46df5f44.png&#34;
                width=&#34;612&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -220,7 +220,7 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
                /post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_a5997e8793668c90ca806d5685763979.png 400w,
                /post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_1301d672b661113289f14b197e630b71.png 760w,
                /post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://localhost:1313/post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_a5997e8793668c90ca806d5685763979.png&#34;
+               src=&#34;https://rongpeng.li/post/pinyin-input/intelligent-pinyin_hu7a44c44e7b6c5f64c8be361bf664caba_55158_a5997e8793668c90ca806d5685763979.png&#34;
                width=&#34;631&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -251,7 +251,7 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
                /post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_5a68481434cc5d6403bc39455cc60bec.png 400w,
                /post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_27fdc20f65c5b636ee9e838cb850329c.png 760w,
                /post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://localhost:1313/post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_5a68481434cc5d6403bc39455cc60bec.png&#34;
+               src=&#34;https://rongpeng.li/post/pinyin-input/region-language_hu9c48358db776c2720579456fd6de8945_76786_5a68481434cc5d6403bc39455cc60bec.png&#34;
                width=&#34;760&#34;
                height=&#34;631&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -280,7 +280,7 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
                /post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_384d587abe5409d3099afb53d37b7e0e.png 400w,
                /post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_550c25fe1fed855550376322814521a6.png 760w,
                /post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://localhost:1313/post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_384d587abe5409d3099afb53d37b7e0e.png&#34;
+               src=&#34;https://rongpeng.li/post/pinyin-input/region-language-other_huc51b257c66342346d6fca4cc1a57c08d_59960_384d587abe5409d3099afb53d37b7e0e.png&#34;
                width=&#34;298&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -309,7 +309,7 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
                /post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1fe7ed17b3fe06f44e38906995252da5.png 400w,
                /post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_082047f0c80bb61296dfbc2fb271cf7e.png 760w,
                /post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;http://localhost:1313/post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1fe7ed17b3fe06f44e38906995252da5.png&#34;
+               src=&#34;https://rongpeng.li/post/pinyin-input/select-pinyin_hub773d3a02359024910e52de725cdab15_41595_1fe7ed17b3fe06f44e38906995252da5.png&#34;
                width=&#34;350&#34;
                height=&#34;497&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -327,9 +327,9 @@ Homepage: [https://github.com/ibus/ibus/wiki](https://github.com/ibus/ibus/wiki)
     
     <item>
       <title>The unique advantages of non-STEM professionals in tech bootcamps</title>
-      <link>http://localhost:1313/post/stem-advantage/</link>
+      <link>https://rongpeng.li/post/stem-advantage/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/stem-advantage/</guid>
+      <guid>https://rongpeng.li/post/stem-advantage/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#can-you-introduce-yourself&#34;&gt;Can you introduce yourself?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#why-are-you-interested-in-teaching-stem-subjects&#34;&gt;Why are you interested in teaching STEM subjects?&lt;/a&gt;&lt;/li&gt;

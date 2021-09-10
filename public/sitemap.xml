@@ -2,144 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/publication-type/5/</loc>
+    <loc>https://rongpeng.li/publication-type/5/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/essential-stats/</loc>
+    <loc>https://rongpeng.li/publication/essential-stats/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
+    <loc>https://rongpeng.li/publication_types/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/</loc>
+    <loc>https://rongpeng.li/publication/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://rongpeng.li/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/front-end/</loc>
+    <loc>https://rongpeng.li/tag/front-end/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/portfolio-builder/</loc>
+    <loc>https://rongpeng.li/project/portfolio-builder/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/</loc>
+    <loc>https://rongpeng.li/project/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://rongpeng.li/tags/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/data-engineering/</loc>
+    <loc>https://rongpeng.li/tag/data-engineering/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/orderbook-simulation/</loc>
+    <loc>https://rongpeng.li/project/orderbook-simulation/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/simulation/</loc>
+    <loc>https://rongpeng.li/tag/simulation/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/apodidae/</loc>
+    <loc>https://rongpeng.li/project/apodidae/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/game/</loc>
+    <loc>https://rongpeng.li/tag/game/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/ios/</loc>
+    <loc>https://rongpeng.li/tag/ios/</loc>
     <lastmod>2021-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/mbarranch/</loc>
+    <loc>https://rongpeng.li/project/mbarranch/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication-type/2/</loc>
+    <loc>https://rongpeng.li/publication-type/2/</loc>
     <lastmod>2020-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/quantum-compiler/</loc>
+    <loc>https://rongpeng.li/publication/quantum-compiler/</loc>
     <lastmod>2020-12-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://rongpeng.li/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/chinese/</loc>
+    <loc>https://rongpeng.li/tag/chinese/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/category/education/</loc>
+    <loc>https://rongpeng.li/category/education/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/english/</loc>
+    <loc>https://rongpeng.li/tag/english/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/category/galvanize/</loc>
+    <loc>https://rongpeng.li/category/galvanize/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/pinyin-input/</loc>
+    <loc>https://rongpeng.li/post/pinyin-input/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/linux/</loc>
+    <loc>https://rongpeng.li/tag/linux/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://rongpeng.li/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/category/reference/</loc>
+    <loc>https://rongpeng.li/category/reference/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/stem/</loc>
+    <loc>https://rongpeng.li/tag/stem/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/category/tech/</loc>
+    <loc>https://rongpeng.li/category/tech/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/stem-advantage/</loc>
+    <loc>https://rongpeng.li/post/stem-advantage/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/book/</loc>
+    <loc>https://rongpeng.li/tag/book/</loc>
     <lastmod>2020-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/essential-book/</loc>
+    <loc>https://rongpeng.li/project/essential-book/</loc>
     <lastmod>2020-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/github-tracker/</loc>
+    <loc>https://rongpeng.li/project/github-tracker/</loc>
     <lastmod>2020-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</loc>
+    <loc>https://rongpeng.li/talk/covid-19-visualizations-the-good-the-bad-and-the-malicious/</loc>
     <lastmod>2020-11-12T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/event/</loc>
+    <loc>https://rongpeng.li/event/</loc>
     <lastmod>2020-11-12T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication-type/1/</loc>
+    <loc>https://rongpeng.li/publication-type/1/</loc>
     <lastmod>2020-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/deep-dive/</loc>
+    <loc>https://rongpeng.li/publication/deep-dive/</loc>
     <lastmod>2020-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/kgtk/</loc>
+    <loc>https://rongpeng.li/publication/kgtk/</loc>
     <lastmod>2020-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/deep-learning/</loc>
+    <loc>https://rongpeng.li/tag/deep-learning/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tag/natural-language-processing/</loc>
+    <loc>https://rongpeng.li/tag/natural-language-processing/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/trumptron/</loc>
+    <loc>https://rongpeng.li/project/trumptron/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/slides/</loc>
+    <loc>https://rongpeng.li/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/slides/example/</loc>
+    <loc>https://rongpeng.li/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/super-hard/</loc>
+    <loc>https://rongpeng.li/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://rongpeng.li/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://rongpeng.li/publication/super-hard/</loc>
     <lastmod>2014-10-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/admin/</loc>
+    <loc>https://rongpeng.li/admin/</loc>
   </url><url>
-    <loc>http://localhost:1313/project/cour-sine/</loc>
+    <loc>https://rongpeng.li/project/cour-sine/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/recommender-system/</loc>
+    <loc>https://rongpeng.li/tag/recommender-system/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/web-parsing/</loc>
+    <loc>https://rongpeng.li/tag/web-parsing/</loc>
   </url>
 </urlset>
